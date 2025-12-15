@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2025-12-15",
+        "amount": 100.0,
+        "category": "food",
+        "notes": ""
+    },
+    {
+        "date": "2025-12-15",
+        "amount": 1000.0,
+        "category": "transport",
+        "notes": ""
+    }
+]
