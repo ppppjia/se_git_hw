@@ -9,13 +9,13 @@ with open('expenses.json', 'r', encoding='utf-8') as f:
 category_totals = {}
 
 for item in expenses:
-    category = item.get('category', '其他')
+    category = item.get('category', 'others')
     amount = float(item.get('amount', 0))
     category_totals[category] = category_totals.get(category, 0) + amount
 
 # 檢查是否有資料
 if not category_totals:
-    print("沒有可視覺化的資料")
+    print("no visualize data!")
     exit()
 
 # 轉為圓餅圖所需資料
