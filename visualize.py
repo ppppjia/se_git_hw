@@ -25,7 +25,7 @@ sizes = list(category_totals.values())
 # 畫圖
 plt.figure(figsize=(6, 6))
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
-plt.title('支出分類圓餅圖')
+plt.title('Expense Categories Pie Chart')
 plt.axis('equal')  # 保持圓形
 plt.tight_layout()
 plt.show()
